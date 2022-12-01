@@ -1,0 +1,3 @@
+/home/abhay/AndroidStudioProjects/JniExample/app/.cxx/Debug/2a4q443u/x86/CMakeFiles/edit_cache.dir
+/home/abhay/AndroidStudioProjects/JniExample/app/.cxx/Debug/2a4q443u/x86/CMakeFiles/rebuild_cache.dir
+/home/abhay/AndroidStudioProjects/JniExample/app/.cxx/Debug/2a4q443u/x86/CMakeFiles/jniexample.dir

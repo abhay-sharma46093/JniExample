@@ -1,0 +1,38 @@
+{
+  "buildFiles": [
+    "/home/abhay/AndroidStudioProjects/JniExample/app/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/home/abhay/Android/Sdk/cmake/3.18.1/bin/ninja",
+      "-C",
+      "/home/abhay/AndroidStudioProjects/JniExample/app/.cxx/Debug/2a4q443u/x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/home/abhay/Android/Sdk/cmake/3.18.1/bin/ninja",
+    "-C",
+    "/home/abhay/AndroidStudioProjects/JniExample/app/.cxx/Debug/2a4q443u/x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "jniexample::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "jniexample",
+      "output": "/home/abhay/AndroidStudioProjects/JniExample/app/build/intermediates/cxx/Debug/2a4q443u/obj/x86/libjniexample.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "/home/abhay/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/clang.lld",
+      "cppCompilerExecutable": "/home/abhay/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++.lld"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

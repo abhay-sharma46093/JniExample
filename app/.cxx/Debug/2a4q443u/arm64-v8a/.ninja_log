@@ -1,0 +1,4 @@
+# ninja log v5
+0	165	1669808797	build.ninja	abd689081c024bfb
+0	1410	1669808798	CMakeFiles/jniexample.dir/native-lib.cpp.o	c6b08ab1a30a5aef
+1411	1513	1669808798	/home/abhay/AndroidStudioProjects/JniExample/app/build/intermediates/cxx/Debug/2a4q443u/obj/arm64-v8a/libjniexample.so	5ec0894f177d7569
