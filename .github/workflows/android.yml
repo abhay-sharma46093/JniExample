@@ -20,9 +20,9 @@ jobs:
         distribution: 'temurin'
         cache: gradle
     - name: checkout
-        uses: actions/checkout@v3
-        with:
-          fetch-depth: 1
+      uses: actions/checkout@v3
+      with:
+        fetch-depth: 1
 
     - name: Gradle Wrapper setup
       run: gradle wrapper
