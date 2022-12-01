@@ -5,6 +5,8 @@ plugins {
 
 }
 
+apply { from rootProject.file("jacoco.gradle") }
+
 android {
     namespace 'com.infostride.jniexample'
     compileSdk 33
