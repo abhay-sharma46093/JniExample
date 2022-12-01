@@ -25,6 +25,8 @@ jobs:
       run: pwd
     - name: List
       run: ls
+    - name: Wrapper setup
+      run: gradle wrapper
       
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
