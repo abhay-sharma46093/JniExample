@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">JniExample</string>
+    <string name="send_data_to_jni">Send int To JNI</string>
+    <string name="send_data_model_to_jni">Send DataModel To JNI</string>
+    <string name="get_object_from_jni">Get Object From JNI</string>
 </resources>

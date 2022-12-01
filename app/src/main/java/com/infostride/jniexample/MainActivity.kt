@@ -10,6 +10,7 @@ import androidx.compose.material.Text
 import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
@@ -77,14 +78,14 @@ class MainActivity : AppCompatActivity(), JniCallbackInterface {
             Row {
 
                 OutlinedButton(onClick = {
-                    firstText.value = nativeLibInstance.passDataToJni(100, "Abhay")
+                    firstText.value = nativeLibInstance.passDataToJni(100, "Success")
                     /*"Result from JNI : " + if (nativeLibInstance.passDataToJni(100,"Abhay") == 0) "Success!"
                     else "Failed!"*/
                     textFirst = firstText.value.toString()
 
                 }) {
                     Text(
-                        text = "Send int To JNI",
+                        text = stringResource(R.string.send_data_to_jni),
                         textAlign = TextAlign.Center,
                     )
 
@@ -110,7 +111,7 @@ class MainActivity : AppCompatActivity(), JniCallbackInterface {
 
                 }) {
                     Text(
-                        text = "Send DataModel To JNI",
+                        text = stringResource(R.string.send_data_model_to_jni),
                         textAlign = TextAlign.Center
                     )
 
@@ -134,7 +135,7 @@ class MainActivity : AppCompatActivity(), JniCallbackInterface {
 
                 }) {
                     Text(
-                        text = "Get Object From JNI",
+                        text = stringResource(R.string.get_object_from_jni),
                         textAlign = TextAlign.Center
                     )
 
