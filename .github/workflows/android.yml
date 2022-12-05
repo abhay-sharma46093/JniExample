@@ -32,10 +32,10 @@ jobs:
 
       - name: Build with Gradle
         run: ./gradlew build
-      - name: kill adb server
+      - name: Kill adb server
         run: adb kill-server
 
-      - name: kill adb server
+      - name: Start adb server
         run: adb start-server
 
 
