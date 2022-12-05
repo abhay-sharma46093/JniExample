@@ -18,9 +18,7 @@ Java_com_infostride_jniexample_NativeLibrary_passDataToJni(JNIEnv *env, jobject 
     if (i == 100) {
         result = 0;
     }
-
     const char *nativeString = env->GetStringUTFChars(string,0);
-
     env->ReleaseStringUTFChars(string,nativeString);
     if (strlen(nativeString)!=5){
         result = -1;

@@ -32,3 +32,7 @@
 589	627	1669807238	/home/abhay/AndroidStudioProjects/JniExample/app/build/intermediates/cxx/Debug/2a4q443u/obj/x86_64/libjniexample.so	54774ece78ae3a88
 1	853	1669807363	CMakeFiles/jniexample.dir/native-lib.cpp.o	b1cebfaa6cc28dfa
 853	924	1669807363	/home/abhay/AndroidStudioProjects/JniExample/app/build/intermediates/cxx/Debug/2a4q443u/obj/x86_64/libjniexample.so	54774ece78ae3a88
+23	3623	1670232297	CMakeFiles/jniexample.dir/native-lib.cpp.o	b1cebfaa6cc28dfa
+3623	4209	1670232297	/home/abhay/AndroidStudioProjects/JniExample/app/build/intermediates/cxx/Debug/2a4q443u/obj/x86_64/libjniexample.so	54774ece78ae3a88
+6	841	1670233277	CMakeFiles/jniexample.dir/native-lib.cpp.o	b1cebfaa6cc28dfa
+841	944	1670233277	/home/abhay/AndroidStudioProjects/JniExample/app/build/intermediates/cxx/Debug/2a4q443u/obj/x86_64/libjniexample.so	54774ece78ae3a88

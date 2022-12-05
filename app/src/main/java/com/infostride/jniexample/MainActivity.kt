@@ -41,16 +41,17 @@ class MainActivity : AppCompatActivity(), JniCallbackInterface {
         super.onCreate(savedInstanceState)
 
         setContent {
-            firstText = MutableLiveData()
-            secondText = MutableLiveData()
-            thirdText = MutableLiveData()
-            fourthText = MutableLiveData()
+
+            initData()
             HomeScreenContent()
         }
 
 
     }
 
+
+
+    @Preview
     @Composable
     fun HomeScreenContent() {
 
@@ -64,7 +65,13 @@ class MainActivity : AppCompatActivity(), JniCallbackInterface {
 
     }
 
-    @Preview
+    private fun initData() {
+        firstText = MutableLiveData()
+        secondText = MutableLiveData()
+        thirdText = MutableLiveData()
+        fourthText = MutableLiveData()
+    }
+
     @Composable
     private fun SendDataToJniContent() {
 
@@ -177,7 +184,7 @@ class MainActivity : AppCompatActivity(), JniCallbackInterface {
                 .padding(20.dp)
         ) {
             Text(
-                text = "Jni Data Parsing Example",
+                text = "Jni Data Passing Example",
                 fontSize = 15.sp,
                 color = Color.White,
                 textAlign = TextAlign.Center
